@@ -17,7 +17,7 @@ export default function SignUp() {
   return (
     <>
       <SignUpForm />
-      <div className="flex flex-col w-[100%] gap-4 items-center">
+      <div className="flex flex-col w-[100%] gap-2 items-center">
         <div className="tracking-wider text-base text-gray-500">
           <div className="text-center h-9">atau</div>
           <Button
@@ -55,7 +55,7 @@ export default function SignUp() {
         </Button>
       </div>
 
-      <div className="tracking-wider text-base text-gray-500 mt-12">
+      <div className="tracking-wider text-base text-gray-500">
         Sudah memiliki akun?{" "}
         <Link href={"/auth/signin"}>
           <span className={cn("font-semibold text-river", hover.text)}>

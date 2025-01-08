@@ -40,14 +40,14 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
           />
 
           {props.prefix && (
-            <div className="absolute top-1/2 py-[10px] px-3 text-sm">
+            <div className="absolute top-1/3 py-[10px] px-3 text-sm">
               {_renderPrefixSuffix(props.prefix)}
             </div>
           )}
 
           {props.suffix && (
             <div
-              className={cn("absolute top-1/2 px-3 right-0 text-sm", {
+              className={cn("absolute top-1/3 px-3 right-0 text-sm", {
                 "cursor-pointer": !!props.onPressSuffix,
               })}
               onClick={() => props.onPressSuffix?.()}
@@ -56,7 +56,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
             </div>
           )}
         </div>
-        <small className="text-red-500 mt-1">{error}</small>
+        <small className="text-red-500">{error}</small>
       </>
     );
   }
