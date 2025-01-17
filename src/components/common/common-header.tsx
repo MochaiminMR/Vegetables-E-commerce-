@@ -130,7 +130,7 @@ const CommonHeader: React.FC<HeaderProps> = () => {
               </CommonNotificationBadge>
               <div className="w-[42px] h-[42px] rounded-full relative overflow-hidden">
                 <Image
-                  src="https://ui-avatars.com/api/?name=Taufan+Fadhilah&background=random"
+                  src="https://ui-avatars.com/api/?name=Mochaimiin+Rizq&background=random"
                   layout="fill"
                   alt=""
                   objectFit="cover"
@@ -139,7 +139,7 @@ const CommonHeader: React.FC<HeaderProps> = () => {
 
               <div className="flex flex-col w-[127px] justify-center">
                 <div className="text-xs">Hi, Apa Kabar?</div>
-                <div className="text-sm font-semibold">Taufan Fadhillah</div>
+                <div className="text-sm font-semibold">Mochaimin Rizq!</div>
               </div>
 
               <DropdownMenu>

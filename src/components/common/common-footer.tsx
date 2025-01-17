@@ -174,8 +174,8 @@ const CommonFooter: React.FC<HeaderProps> = () => {
             </div>
             <div className="">
               Made by{" "}
-              <a href="https://taufanfadhilah.web.id/">
-                <span className="text-leaf">@taufanfadhilah</span>
+              <a href="https://mochaiminmr.vercel.app/">
+                <span className="text-leaf">@mochaiminmr</span>
               </a>
             </div>
           </div>

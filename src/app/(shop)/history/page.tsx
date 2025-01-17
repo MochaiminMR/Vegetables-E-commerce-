@@ -45,14 +45,14 @@ export default function History() {
           <div className="flex justify-center pt-3 pb-2">
             <div className="w-[71px] h-[71px] rounded-[20px] relative overflow-hidden">
               <Image
-                src="https://ui-avatars.com/api/?name=Taufan+Fadhilah&background=random"
+                src="https://ui-avatars.com/api/?name=Mochaimin+Muhamad+Rizq&background=random"
                 layout="fill"
                 alt=""
                 objectFit="cover"
               />
             </div>
           </div>
-          <div className="font-semibold">Taufan Fadhilah</div>
+          <div className="font-semibold">Mochaimin Muhamad Rizq</div>
           <div className="flex items-center justify-center">
             <div className="w-[14px] h-[20px] relative mr-2">
               <Image src={GoldBadge} layout="fill" alt="" objectFit="cover" />

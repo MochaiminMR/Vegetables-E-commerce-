@@ -17,11 +17,11 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Vegeta",
-  description: "Vegeta",
+  description: "Ecommerce Platform",
   applicationName: "Vegeta",
   authors: {
-    name: "Taufan Fadhilah",
-    url: "https://taufanfadhilah.web.id/",
+    name: "Mochaimin Muhamad Rizq",
+    url: "https://mochaiminmr.vercel.app/",
   },
   icons: "/logo.svg",
 };
